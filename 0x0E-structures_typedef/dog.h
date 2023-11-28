@@ -2,7 +2,7 @@
 #define _HEAD_
 
 /**
- * dog_t - Typedef for struct dog
+ * dog_n - Typedef for struct dog
  */
 typedef struct dog dog_n;
 
