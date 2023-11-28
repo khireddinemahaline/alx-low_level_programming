@@ -2,9 +2,9 @@
 #define _HEAD_
 
 /**
- * dog_n - Typedef for struct dog
+ * dog_t - Typedef for struct dog
  */
-typedef struct dog dog_n;
+typedef struct dog dog_t;
 
 /**
  * struct dog - struct that stores some information of a dog
