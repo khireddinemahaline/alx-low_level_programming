@@ -9,7 +9,8 @@ there are steps and stage to comile a C file into an excutable file and those st
 5. linker : link object files with libraries to generate an excutable file .exe
    * gcc file_name.o -o app.exe
 
-  *** you could convert C file into excutable file directly using * gcc file_name.c -o app.exe
+  #### you could convert C file into excutable file directly using 
+  ##### * gcc file_name.c -o app.exe
 
   ### WRITE C CODE
   1. puts : The puts() function is used to write a string to the console and it automatically adds a new line character ‘\n’ at the end.
