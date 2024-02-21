@@ -24,3 +24,5 @@ while(expression) {
   // code block to be executed
 }
 
+##### some trick
+ * The digits 0 thru 9 are encoded as the consecutive numbers 48 thru 57
