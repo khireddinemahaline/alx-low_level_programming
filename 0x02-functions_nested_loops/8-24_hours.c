@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *
+ * jack_bauer - function for time count
  *
  *
  */
@@ -8,25 +8,17 @@
 void jack_bauer(void)
 {
 	int i, j;
-	int k, n;
 
-	for (i = 48; i <= 50; i++)
+	for (i = 0; i <= 23; i++)
 	{
-		for (j = 48; j <= 51; j++)
+		for (j = 0; j <= 59; j++)
 		{
-			_putchar(i);
-			_putchar(j);
+			_putchar(i / 10 + 48);
+			_putchar(i % 10 + 48);
 			_putchar(':');
-			for (k = 48; k <= 53; k++)
-			{
-				for (n = 48; n <= 57; n++)
-				{
-					_putchar(k);
-					_putchar(n);
-				}
-				_putchar('\n');
-
-			}
+			_putchar(j / 10 + 48);
+			_putchar(j % 10 + 48);
 		}
 	}
+	_putchar('\n');
 }
