@@ -2,7 +2,7 @@
 /**
  * print_alphabet - function print alpha in lower case
  *
- * Return: Always 0 (Success)
+ * 
  */
 
 void print_alphabet(void)
@@ -12,5 +12,4 @@ void print_alphabet(void)
 	for (i = 'a'; i <= 'z'; i++)
 		_putchar(i);
 	_putchar('\n');
-	return (0);
 }
