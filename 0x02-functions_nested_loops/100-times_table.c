@@ -31,10 +31,10 @@ void print_times_table(int n)
 					_putchar(k % 10 + '0');
 				}
 			}
-			_putcahr('\n');
+			_putchar('\n');
 			i++;
 		}
 	}
 	else
-		break;
+		_putchar('\n');
 }
