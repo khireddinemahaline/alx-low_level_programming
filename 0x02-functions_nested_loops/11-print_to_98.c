@@ -9,24 +9,16 @@
 
 void print_to_98(int n)
 {
-	while (n <= 98)
+	if (n < 98)
 	{
-		if (n < 98)
-		{
-			printf("%i, ", n);
-		}
-		else
-		{
-			printf("%i\n", n);
-		}
-		n++;
+		for (n; n < 98; n++)
+			printf("%i, " , n);
 	}
-	while (n > 98)
+	else if (n > 98)
 	{
-		if (n > 98)
-			printf("%i, ", n);
-		else
-			printf("%i\n", n);
-		n--;
+		for (n; n > 98; n--)
+			printf("%i, " , n);
 	}
+	else
+		printf("%i\n" , n);
 }
