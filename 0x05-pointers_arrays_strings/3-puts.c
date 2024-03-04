@@ -7,5 +7,5 @@
  */
 void _puts(char *str)
 {
-	fprinf(stdout , str);
+	fprintf(stdout , str);
 }
