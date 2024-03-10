@@ -2,9 +2,9 @@
 #define _HEAD_
 
 /**
- * deg_info - structure type deff alias
+ * deg_t - new name for structure type deff alias
  */
-typedef struct dog dog_info;
+typedef struct dog dog_t;
 
 /**
  * struct dog - structure og dog information
