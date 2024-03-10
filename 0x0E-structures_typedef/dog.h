@@ -2,18 +2,16 @@
 #define _HEAD_
 
 /**
- * dog_t - Typedef for struct dog
+ * deg_info - structure type deff alias
  */
-typedef struct dog dog_t;
+typedef struct dog dog_info;
 
 /**
- * struct dog - struct that stores some information of a dog
+ * struct dog - structure og dog information
  * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of the dog
- *
- * Description: struct called "dog" that stores its name, its age
- * and the name of its owner.
+ * @age: dog age
+ * @owner: the owner of dog
+ * Descreption: information dog
  */
 struct dog
 {
@@ -21,10 +19,5 @@ struct dog
 	float age;
 	char *owner;
 };
-
-void init_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
-dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(dog_t *d);
 
 #endif
