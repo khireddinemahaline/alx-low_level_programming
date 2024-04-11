@@ -3,6 +3,7 @@
  * _strchr - function return the first oocured
  * @s: the string
  * @c: the character
+ * Return: return first occured
  */
 char *_strchr(char *s, char c)
 {
