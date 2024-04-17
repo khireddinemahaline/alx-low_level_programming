@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,11 +11,9 @@ void rev_string(char *s)
     int len = 0, length, j;
 
     while (s[len] != '\0')
-    {
         len++;
-    }
     length = len - 1;
-    for (j = 0; j <= length / 2; j++)
+    for (j = 0; j <= length; j++)
     {
         temp = s[j];
         s[j] = s[length];
