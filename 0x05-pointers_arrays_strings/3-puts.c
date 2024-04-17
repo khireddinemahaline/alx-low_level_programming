@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
  * _puts - function return string in stdout
  * @str: string value
