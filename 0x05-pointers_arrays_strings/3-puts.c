@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * _puts - function return string in stdout
  * @str: string value
@@ -7,5 +6,12 @@
  */
 void _puts(char *str)
 {
-	fprintf(stdout , str);
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
