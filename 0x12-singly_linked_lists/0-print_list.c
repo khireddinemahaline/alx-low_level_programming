@@ -1,5 +1,9 @@
 #include "lists.h"
-
+/**
+ * print_list - print linked list
+ * @h: pointer of a node
+ * Return: the node
+ */
 
 size_t print_list(const list_t *h)
 {
@@ -13,10 +17,6 @@ size_t print_list(const list_t *h)
 			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
 		nodes++;
-		
 	}
-
-
-	return(nodes);
-
+	return (nodes);
 }
