@@ -3,7 +3,7 @@
  * main - entry point
  * Return: 0 (Always)
  */
-int main(void)
+void main(void)
 {
 	int i;
 
@@ -19,5 +19,4 @@ int main(void)
 			printf("%d", i);
 	}
 	printf("\n");
-	return (0);
 }
