@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* puts - Entry point
+* puts2 - Entry point
 * @str: string value
 */
 
